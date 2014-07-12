@@ -1,0 +1,39 @@
+{
+  "name": "derby-examples",
+  "subdomain": "derby-examples",
+  "description": "Example applications for the Derby framework",
+  "version": "0.6.0",
+  "homepage": "http://derbyjs.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/codeparty/derby-examples.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "d-barchart": "~0.1.0",
+    "d-barchart-vanilla": "~0.1.0",
+    "d-before-unload": "~0.1.0",
+    "d-bootstrap": "~0.1.0",
+    "d-connection-alert": "~0.1.0",
+    "d-d3-barchart": "~0.1.0",
+    "derby": "git://github.com/codeparty/derby#master",
+    "derby-parsing": "git://github.com/codeparty/derby-parsing#master",
+    "derby-starter": "git://github.com/codeparty/derby-starter#master",
+    "derby-templates": "git://github.com/codeparty/derby-templates#master",
+    "express": "~3.4.8",
+    "html-util": "git://github.com/codeparty/html#master",
+    "moment": "^2.7.0",
+    "racer": "git://github.com/codeparty/racer#master",
+    "saddle": "git://github.com/codeparty/saddle#master",
+    "share": "git://github.com/share/ShareJS#master",
+    "tracks": "git://github.com/codeparty/tracks#master"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  }
+}

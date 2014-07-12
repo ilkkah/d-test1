@@ -1,0 +1,14 @@
+<Body:>
+	<a href="/">home</a>
+	<ol>
+		<li>
+		{{if !#root._session.tz}}
+			{{date()}}
+		{{/}}
+		</li>
+		<li>
+		{{if #root._session.tz}}
+			{{date()}}
+		{{/}}
+		</li>
+	</ol>
